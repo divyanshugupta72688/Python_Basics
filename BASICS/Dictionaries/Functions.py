@@ -1,39 +1,39 @@
-# Student = {
-#     "name" : "Divyanshu Gupta",
-#     "Std" : "Btech",
-#     "UniversityRollNo" : 2300970310077
-# }
-#
-# #1.get
-#
-# print(Student.get("Std"))
-#
-# #2.item
-#
-# print(Student.items())
-#
-# #3.keys
-#
-# print(Student.keys())
-#
-# #4.values
-#
-# print(Student.values())
-#
-# #5.copy
-#
-# d = Student.copy()
-# print(d)
-#
-# #6.setdefault
-#
-# x = Student.setdefault("name","Ayush Gupta")
-# print(x)
-#
-# #7.clear
-#
-# Student.clear()
-# print(Student)
+Student = {
+    "name" : "Divyanshu Gupta",
+    "Std" : "Btech",
+    "UniversityRollNo" : 2300970310077
+}
+
+#1.get
+
+print(Student.get("Std"))
+
+#2.item
+
+print(Student.items())
+
+#3.keys
+
+print(Student.keys())
+
+#4.values
+
+print(Student.values())
+
+#5.copy
+
+d = Student.copy()
+print(d)
+
+#6.setdefault
+
+x = Student.setdefault("name","Ayush Gupta")
+print(x)
+
+#7.clear
+
+Student.clear()
+print(Student)
 
 # Nested Dictionary
 
