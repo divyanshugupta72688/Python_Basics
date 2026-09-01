@@ -6,3 +6,4 @@ data.loc[(data["Age"]<45),"GetBonus"] = "No Bonus"
 pd.set_option("display.max_columns", None)
 print(data.head(10))
 print(data["GetBonus"].value_counts())
+
