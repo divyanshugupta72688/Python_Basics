@@ -33,3 +33,4 @@ pd.set_option('display.max_columns',None)
 print(data.shape)# total rows and total coln
 print(data.info())# total rows , coln names , non-null values,datatypes,memory usages
 print(data.describe()) #numerical columns ka statistical summary
+print(data.isnull().sum())# it tell us how many null values in in the coln
